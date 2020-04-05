@@ -1,0 +1,44 @@
+@import '../../../assets/less/base/variables.less';
+
+.login {
+    &-form {
+        &__wrap {
+
+            position: relative;
+
+            input {
+                flex: 1;
+                width: 394px;
+                padding: 10px;
+                border-bottom: 2px solid black;
+                font-family: @font-family;
+                font-size: 14px;
+            }
+
+        }
+
+        &__placeholder {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 11px;
+            line-height: 11px;
+            pointer-events: none;
+            transition: 0.2s;
+
+            &.active {
+                top: -14px;
+                left: 0;
+            }
+        }
+
+        &__error {
+            position: absolute;
+            left: 0;
+            top: 110%;
+            font-size: 12px;
+            line-height: 18px;
+            color: @statusRed;
+        }
+    }
+}

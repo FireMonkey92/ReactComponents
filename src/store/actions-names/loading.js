@@ -1,0 +1,3 @@
+export const LOADING_ACTIONS = {
+    LOADING_UPDATE: "LOADING_UPDATE"
+} 

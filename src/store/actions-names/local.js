@@ -1,0 +1,4 @@
+export const LOCAL_ACTIONS = {
+  UPDATE: 'LOCAL_UPDATE',
+  CLEAR: 'LOCAL_CLEAR',
+};
